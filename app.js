@@ -12,6 +12,14 @@ app.get("/", (req, res) => {
   res.sendFile(path.resolve("./public/frontpagePage.html"));
 });
 
+app.get("/introduction", function(req, res){
+  res.render();
+});
+
+
+
+
+
 
 const PORT = process.env.PORT || 8080;
 
